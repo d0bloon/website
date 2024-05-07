@@ -1,0 +1,21 @@
+div.scroll-container {
+    width="64" height="24";
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+.navbar p {
+    color: grey;
+    font-size: 12px;
+
+}
+
+.margen{
+    margin-top: 50px;
+    padding: 10px;
+}

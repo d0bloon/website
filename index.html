@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,17 +8,41 @@
     <title>Website Modelo</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/image_04.svg">
 </head>
 <body>
+<!--NavBar con logo de jordan y texto centro de ayuda, register y login-->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="/assets/images/image_14.svg" alt="Bootstrap" width="22" height="32">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-9">
+            </div>
+            <div class="col-2">
+                <div class="navbar">
+                    <b><p style="text-align:end"><a class="nav-link link-dark" href=""> Centro de ayuda | Registrarse / Login</a></p></b>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!--NavBar con logo de la pagina y buscador-->
 <section>
     <div class="container-fluid">
         <div class="row">
             <div class="col-3">
                 <nav class="navbar bg-body-tertiary">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img src="/assets/images/image_04.png" alt="Bootstrap" width="64" height="24">
+                    <div class="container-fluid">
+                        <a style="align-content: start" class="navbar-brand" href="#">
+                            <img src="/assets/images/image_04.svg" alt="Bootstrap" width="74" height="34">
                         </a>
                     </div>
                 </nav>
@@ -68,14 +92,29 @@
                         <div class="carousel-item active">
                             <p style="text-align: center">
                                 Recibe entre 48 y 72 horas hábiles en Región Metropolitana
+                            </p>
+                            <a class="nav-link link-dark" href=""><p style="text-align: center">
+                                <b>Comprar</b>
+                            </p>
+                            </a>
                         </div>
                         <div class="carousel-item">
                             <p style="text-align: center">
                                 Compra en hasta 6 cuotas sin interés
+                            </p>
+                            <a class="nav-link link-dark" href=""><p style="text-align: center">
+                                <b>Promociones</b>
+                            </p>
+                            </a>
                         </div>
                         <div class="carousel-item">
                             <p style="text-align: center">
                                 Nuevas ofertas hasta 40% OFF
+                            </p>
+                            <a class="nav-link link-dark" href=""><p style="text-align: center">
+                                <b>Comprar</b>
+                            </p>
+                            </a>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -120,7 +159,7 @@
 </section>
 <!--Texto centrado-->
 <section>
-    <div class="container-fluid">
+    <div class="container margen">
         <div class="row">
             <div class="col-12">
                 <p style="text-align: center" class="fs-5">Correr se trata de lo que sientes cuando estás ahí afuera.</p>
@@ -131,7 +170,7 @@
 </section>
 <!--2do texto centrado-->
 <section>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <p style="text-align: center" class="fs-5">Así que amárrate los cordones y no dejes calle sin correr.</p>
@@ -142,7 +181,7 @@
 </section>
 <!--Dos botones centrados-->
 <section>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <ul class="nav justify-content-center gap-1">
@@ -153,8 +192,9 @@
         </div>
     </div>
 </section>
+<!--texto Izquierda-->
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid margen">
         <div class="row">
             <div class="col-12">
                 <p class="fs-4">Todos tus íconos</p>
@@ -162,7 +202,197 @@
         </div>
     </div>
 </section>
+<!--Seis imagenes con href-->
 <section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="scroll-container">
+                    <a href="">
+                    <img src="assets/images/image_05.jpg" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                    <img src="assets/images/image_06.jpg" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                    <img src="assets/images/image_07.jpg" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                    <img src="assets/images/image_08.jpg" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                    <img src="assets/images/image_09.jpg" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                    <img src="assets/images/image_10.jpg" width="430" height="430" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--texto Izquierda-->
+<section>
+    <div class="container-fluid margen">
+        <div class="row">
+            <div class="col-12">
+                <p class="fs-4">Novedades</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--3 Imagenes con link-->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <a href="">
+                    <img src="assets/images/image_11.jpg" class="d-block w-100" alt="...">
+                </a>
+                    <p style="text-align: center" class="fs-6">Corre junto a nike</p>
+            </div>
+            <div class="col-4">
+                <a href="">
+                    <img src="assets/images/image_12.jpg" class="d-block w-100" alt="...">
+                </a>
+                    <p style="text-align: center" class="fs-6">Lo nuevo de Air Force</p>
+            </div>
+            <div class="col-4">
+                <a href="">
+                    <img src="assets/images/image_13.jpg" class="d-block w-100" alt="...">
+                </a>
+                    <p style="text-align: center" class="fs-6">Lo último de Nike Fútbol</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Imagen con un margen-->
+<section>
+    <div class="container-fluid margen">
+        <div class="row">
+            <div class="col-12">
+                <img src="assets/images/image_15.jpg" class="d-block w-100" alt="...">
+                <b><p style="text-align: center" class="fs-1">DÍA DE LA MADRE</p></b>
+                <p style="text-align: center" class="fs-6">Ella puede hacerlo todo. Te cuida, entrena y es tu fan número uno.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Un boton con link-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav justify-content-center gap-1">
+                    <button type="button" class="btn btn-dark">Comprar</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--texto Izquierda-->
+<section>
+    <div class="container-fluid margen">
+        <div class="row">
+            <div class="col-12">
+                <p class="fs-4">Novedades de la semana</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="scroll-container">
+                    <a href="">
+                        <img src="assets/images/image_16.png" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_17.png" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_18.png" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_19.png" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_20.png" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_21.png" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_22.png" width="430" height="430" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_23.png" width="430" height="430" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid margen">
+        <div class="row">
+            <div class="col-12">
+                <p class="fs-4">Membresía Nike</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="scroll-container">
+                    <a href="">
+                        <img src="assets/images/image_24.png" width="566" height="566" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_25.png" width="566" height="566" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_26.png" width="566" height="566" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_27.png" width="566" height="566" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_28.png" width="566" height="566" alt="...">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/image_29.png" width="566" height="566" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid margen">
+        <div class="row">
+            <div class="col-12">
+                    <a href="">
+                        <img class="align-content-center" src="assets/images/image_30.png" alt="...">
+                    </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid margen">
+        <div class="row">
+            <div class="col-12">
+                <a href="">
+
+                    <img src="assets/images/image_31.png" alt="...">
+                </a>
+            </div>
+        </div>
+    </div>
 </section>
 <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
